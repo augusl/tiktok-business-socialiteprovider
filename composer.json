@@ -1,0 +1,21 @@
+{
+    "name": "augusl/tiktok-business-socialiteprovider",
+    "description": "OAuth TikTok Business",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Augusl\\TiktokBusinessSocialite\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Claus.Lee",
+            "email": "phpvalue@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "socialiteproviders/manager": "^4.5"
+    }
+}
